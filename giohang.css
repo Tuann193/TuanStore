@@ -1,0 +1,514 @@
+.main {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #3e3e3f;
+}
+#head{
+    width:100%;
+    height: 70px;
+    border: 1px solid black;
+    background-color: black;
+}
+#logo{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    line-height: 65px;
+    margin-left: 90px;
+    float: left;
+}
+#store{
+    font-size: 25px;
+    line-height: 25px ;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float:left;
+    margin-left: 5px;
+    margin-right: 90px;
+    margin-top: 20px;
+}
+#IPhone {
+    width: 100px;
+    height: 68px;
+    background-color: rgb(0, 0, 0);
+    float: left;
+    text-decoration: none;
+}
+#Features {
+    width: 100px;
+    height: 68px;
+    background-color: rgb(0, 0, 0);
+    float: left;
+    text-decoration: none;
+    margin-right: 30px;
+}
+#ip {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    line-height: 30px;
+    margin-top: 20px;
+}
+#IPhone:hover {
+    transition: 0.5s;
+    background-color: rgb(181, 180, 180);
+}
+#Features:hover {
+    transition: 0.5s;
+    background-color: rgb(181, 180, 180);
+}
+#search-box {
+    margin-top: 20px;
+    background-color: #000000;
+    float:left;
+}
+#search-text {
+    border: none;
+    outline: none;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 120px;
+}
+#search-btn {
+    padding: 5px;
+    background-color: #000000;
+    border:none;
+    cursor:pointer;
+    color:rgb(255, 255, 255);
+    font-size: 15px;
+}
+.shopping {
+    width: 36px;
+    height: 50px;
+    float: left;
+    background-color: rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-left: 50px;
+}
+#bag {
+    font-size: 30px;
+    line-height: 50px;
+    text-decoration: none;
+    color: white;
+}
+.login {
+    width: 36px;
+    height: 50px;
+    float: left;
+    background-color: rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-left: 40px;
+}
+#user {
+    font-size: 30px;
+    line-height: 50px;
+    text-decoration: none;
+    color: white;
+}
+html, body {
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+}
+.container-fluid {
+    width: 100%;
+    height: auto;
+    background-color: #f0f0f0;
+}
+.content {
+    width: 100%;
+    height: 70rem;
+    background-color: #f0f0f0;
+}
+.giohang {
+    width : 37.625rem;
+    height: 11rem;
+    margin-top: 0rem;
+    background-color: #fff;
+    margin-left: 28.75rem;
+    margin-top: 1rem;
+    border-radius: 15px 15px 0 0;
+}
+.back {
+    text-decoration: none;
+    margin-left: 28.75rem;
+    color: black;
+}
+#muiten {
+    margin-top: 1rem;
+}
+.footer {
+    width: 100%;
+    height: 31.25rem;
+    border: 1px solid black;
+    float: left;
+    background-color: #101010;
+}
+.footer h1 {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+}
+.footer p {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.giohang img {
+    width: 6rem;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    float: left;
+}
+.name {
+    float: left;
+    margin-top: 2rem;
+}
+.gia {
+    float: left;
+    margin-top: 2rem;
+    margin-left: 10.5rem;
+    font-weight: 700;
+}
+.giamgia {
+    font-size: 15px;
+    margin-left: 30.1rem;
+    text-decoration: line-through;
+    transform: translate(0,-1rem);
+    color: gray;
+}
+.btn {
+    margin-top: -3rem;
+}
+.total {
+    margin-left: 2rem;
+    font-weight: 700;
+    margin-top: 0rem;
+}
+.tt {
+    float: left;
+    margin-left: 30rem;
+    margin-top: -2.5rem;
+    font-size: 14px;
+    font-weight: 700;
+}
+.ttkh {
+    width : 37.625rem;
+    height: 9rem;
+    margin-top: 0rem;
+    background-color: #fff;
+    margin-left: 28.75rem;
+    margin-top: 0.3rem;
+}
+#thongtin {
+    transform: translate(1rem,1rem);
+    font-weight: 650;
+}
+#nam {
+    transform: translate(1rem,0.5rem); 
+    float: left;
+    cursor: pointer;
+}
+#gioitinhnam {
+    float: left;
+    margin-left: 1.5rem;
+}
+#nu {
+    transform: translate(1rem,0.5rem); 
+    float: left;
+    margin-left: 3rem;
+    cursor: pointer;
+}
+#gioitinhnu {
+    float: left;
+    margin-left: 1.5rem;
+}
+.input-box {
+    width: 16.25rem;
+    height: 3.25rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 1rem;
+    outline: none;
+    transform: translate(-10rem,2rem);
+  }
+  .input-box-2 {
+    width: 16.25rem;
+    height: 3.25rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 1rem;
+    outline: none;
+    transform: translate(19rem,-1.3rem);
+  }
+  .dropdown-btn {
+    position: relative;
+    width: 16.25rem;
+    height: 3.25rem;
+    transform: translate(1rem,1.5rem);
+  }
+  .select-box {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 1rem;
+    outline: none;
+    background: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #fff;
+  }
+  .select-box option {
+    font-size: 1rem;
+  }
+  .htnh {
+    width : 37.625rem;
+    height: 27rem;
+    background-color: #fff;
+    margin-left: 28.75rem;
+    margin-top: 0.3rem;
+}
+    .ttdh {
+    width: 35.5rem;
+    height: 10rem;
+    float: left;
+    background-color: #F5F5F7;
+    margin-left: 1rem;
+    border-radius: 15px;
+}
+  .select-box-2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 1rem;
+    outline: none;
+    background: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    transform: translate(17rem,-3.3rem);
+    background-color: #fff;
+  }
+  .select-box-2 option {
+    font-size: 1rem;
+  }
+  .select-box-3 {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 1rem;
+    outline: none;
+    background: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    transform: translate(-0.1rem,-2.5rem);
+    background-color: #fff;
+  }
+  .select-box-3 option {
+    font-size: 1rem;
+    color: black;
+  }
+  .input-box-3 {
+    width: 16.25rem;
+    height: 3.25rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 1rem;
+    outline: none;
+    transform: translate(17rem,-5.7rem);
+  }
+  .input-box-4 {
+    width: 35.5rem;
+    height: 3.25rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 1rem;
+    outline: none;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.call {
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+.db {
+    margin-left: 1rem;
+}
+.finishform {
+    width : 37.625rem;
+    height: 10rem;
+    background-color: #fff;
+    margin-left: 28.75rem;
+    margin-top: 0.3rem;
+    border-radius: 0 0 10px 10px ;
+}
+#ttien {
+    transform: translate(1rem,1rem);
+    font-weight: 700;
+}
+#ttiengia {
+    float: left;
+    transform: translate(31rem,-1.5rem);
+    color: red;
+}
+.btn-dathang {
+    width: 35.5rem;
+    height: 3.25rem;
+    border-radius: 10px;
+    margin-left: 1rem;
+    transform: translate(0,-1rem);
+    background-color: #0071E3;
+    border: none;
+}
+.btn-dathang p {
+    transform: translate(0,0.4rem);
+    color: white;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    #head {
+        width: 100.4%;
+        height: 15rem;
+    }
+    #logo {
+    font-size: 1rem;
+    margin-left: 7.5rem;
+    }
+    #store 
+    {
+        font-size: 1.3rem;
+    }
+    #IPhone {
+        width: 100.4%;
+        margin-left: -0.04rem;
+    }
+    #Features
+    {
+        width: 100.4%;
+        margin-left: -0.04rem;
+        margin-bottom: -1.3rem;
+    }
+    #search-text
+    {
+        width: 15rem;
+        height: 3rem;
+        margin-left: -0.05rem;
+    }
+    .shopping {
+        width: 3rem;
+        height: 3.1rem;
+        margin-top: 1.15rem;
+        margin-left: 0rem;
+    }
+    #bag {
+        margin-left: 1.2rem;
+    }
+    .login {
+        width: 4.51rem;
+        height: 3.1rem;
+        margin-top: 1.15rem;
+        margin-left: 0.031rem;
+    }
+    #user {
+        margin-left: 1.5rem;
+    }
+    #muiten {
+        margin-left: -28.5rem;
+        margin-top: 2rem;
+    }
+    .giohang {
+        width: 22rem;
+        margin-top: 1rem;
+        margin-left: 0.4rem;
+    }
+    .giohang img {
+        width: 5.5rem;
+        margin-left: 0.5rem;
+        margin-top: 0.5rem;
+    }
+    .giohang .name {
+        font-size: 0.9rem;
+        margin-top: 1rem;
+    }
+    .dropdown .btn.btn-secondary.dropdown-toggle {
+        width: 5.5rem;
+        height: 2rem;
+        margin-left: -10.5rem;
+        margin-top: 1.5rem;
+    }
+    .dropdown .mausac{
+        font-size: 0.9rem;
+    }
+    .total {
+        transform: translate(-5rem,1.5rem);
+    }
+    .tt {
+        transform: translate(-14rem,1.5rem);
+    }
+    .gia {
+        display: none;
+    }
+    .giamgia {
+        transform: translate(-14.1rem,8.5rem);
+    }
+    .ttkh {
+        width: 22rem;
+        margin-top: 1rem;
+        margin-left: 0.4rem;
+        height: 14rem;
+    }
+    .input-box {
+        transform: translate(1rem,-0.5rem);
+        width: 20rem;
+    }
+    .input-box-2 {
+        transform: translate(1rem,0.2rem);
+        width: 20rem;
+    }
+    .htnh {
+        width: 22rem;
+        margin-top: 1rem;
+        margin-left: 0.4rem;
+        height: 36rem;
+    }
+    .htnh #nu {
+        margin-left: 0.2rem;
+    }
+    .ttdh {
+        width: 20rem;
+        height: 20rem;
+    }
+    .select-box-2 {
+        transform: translate(-0.1rem,4.7rem);
+    }
+    .input-box-3 {
+        transform: translate(-0.1rem,2.3rem);
+    }
+    .content {
+        height: auto;
+    }
+    .input-box-4 {
+        width: 20rem;
+    }
+    .finishform {
+        width: 22rem;
+        margin-left: 0.4rem;
+    }
+    #ttiengia {
+        transform: translate(15.7rem,-1.3rem);
+    }
+    .btn-dathang {
+        width: 20rem;
+    }
+}

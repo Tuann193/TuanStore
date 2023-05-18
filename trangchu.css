@@ -1,0 +1,1267 @@
+
+        .main {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #3e3e3f;
+        }
+        #head{
+            width:100%;
+            height: 70px;
+            border: 1px solid black;
+            background-color: black;
+        }
+        #logo{
+            color: rgb(255, 255, 255);
+            font-size: 50px;
+            line-height: 65px;
+            margin-left: 90px;
+            float: left;
+        }
+        #store{
+            font-size: 25px;
+            line-height: 20px ;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            float:left;
+            margin-left: 5px;
+            margin-right: 90px;
+        }
+        #IPhone {
+            width: 100px;
+            height: 70px;
+            background-color: rgb(0, 0, 0);
+            float: left;
+            text-decoration: none;
+        }
+        #Features {
+            width: 100px;
+            height: 70px;
+            background-color: rgb(0, 0, 0);
+            float: left;
+            text-decoration: none;
+            margin-right: 30px;
+        }
+        #ip {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 20px;
+            text-align: center;
+            line-height: 35px;
+            color: rgb(255, 255, 255);
+            line-height: 30px;
+        }
+        #IPhone:hover {
+            transition: 0.5s;
+            background-color: rgb(181, 180, 180);
+        }
+        #Features:hover {
+            transition: 0.5s;
+            background-color: rgb(181, 180, 180);
+        }
+        #search-box {
+            margin-top: 23px;
+            background-color: #000000;
+            float:left;
+        }
+        #search-text {
+            border: none;
+            outline: none;
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+            width: 120px;
+        }
+        #search-btn {
+            padding: 5px;
+            background-color: #000000;
+            border:none;
+            cursor:pointer;
+            color:rgb(255, 255, 255);
+            font-size: 15px;
+        }
+        .shopping {
+            width: 36px;
+            height: 50px;
+            float: left;
+            background-color: rgb(0, 0, 0);
+            margin-top: 10px;
+            margin-left: 50px;
+        }
+        #bag {
+            font-size: 30px;
+            line-height: 50px;
+            text-decoration: none;
+            color: white;
+        }
+        .login {
+            width: 36px;
+            height: 50px;
+            float: left;
+            background-color: rgb(0, 0, 0);
+            margin-top: 10px;
+            margin-left: 40px;
+        }
+        #user {
+            font-size: 30px;
+            line-height: 50px;
+            text-decoration: none;
+            color: white;
+        }
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.slider-container{
+  height: 400px;
+  width: 100%;
+  position: relative;
+  overflow: hidden; 
+  text-align: center;
+  margin-top: 0px;
+  float: left;
+}
+
+.menu {
+  position: absolute;
+  left: 0;
+  z-index: 900;
+  width: 100%;
+  bottom: 0;
+}
+
+.menu label {
+  cursor: pointer;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  border-radius: 50px;
+  margin: 0 .2em 1em;
+  transition: all .3s ease;
+}
+.menu label:hover {
+    background-color: rgb(183, 179, 179);
+}
+.slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  z-index: 10;
+  padding: 8em 1em 0;
+  background-size: cover;
+  background-position: 50% 50%;
+  transition: left 0s .75s;
+}
+
+[id^="slide"]:checked + .slide {
+  left: 0;
+  z-index: 100;
+  transition: left .65s ease-out;
+}
+
+.slide-1 {
+  background-image: url("slide1.png");
+  height: 270px;
+}
+.slide-2 {
+  background-image: url("slide2.png");
+  height: 270px;
+}
+.slide-3 {
+  background-image: url("slide3.png");
+  height: 270px;
+}
+.content {
+    width: 100%;
+    height: 2400px;
+    background-color: #3e3e3f;
+    float: left;
+    margin-top: -5px;
+}
+#contentip{
+    width: 179px;
+    height: 217px;
+    background-color: #323232;
+    margin-left: 170px;
+    margin-top: 50px;
+    border-radius: 25px;
+    float: left;
+    cursor: pointer;
+}
+#hinhip14 {
+    width: 100px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.content #contentip p {
+    text-align: center;
+    color: white;
+}
+#contentmac{
+    width: 179px;
+    height: 217px;
+    background-color: #323232;
+    margin-left: 20px;
+    margin-top: 50px;
+    border-radius: 25px;
+    float: left;
+    cursor: pointer;
+}
+#hinhmac {
+    width: 200px;
+    height: 120px;
+    margin-top: 21px;
+    margin-left: -9px;
+}
+.content #contentmac p {
+    text-align: center;
+    color: white;
+}
+#contentipad{
+    width: 179px;
+    height: 217px;
+    background-color: #323232;
+    margin-left: 20px;
+    margin-top: 50px;
+    border-radius: 25px;
+    float: left;
+    cursor: pointer;
+}
+#hinhipad {
+    width: 150px;
+    height: 120px;
+    margin-top: 21px;
+    margin-left: 12px;
+}
+.content #contentipad p {
+    text-align: center;
+    color: white;
+}
+#contentaw{
+    width: 179px;
+    height: 217px;
+    background-color: #323232;
+    margin-left: 20px;
+    margin-top: 50px;
+    border-radius: 25px;
+    float: left;
+    cursor: pointer;
+}
+#hinhaw {
+    width: 200px;
+    height: 115px;
+    margin-top: 25px;
+    margin-left: -10px;
+}
+.content #contentaw p {
+    text-align: center;
+    color: white;
+}
+#contentap{
+    width: 179px;
+    height: 217px;
+    background-color: #323232;
+    margin-left: 20px;
+    margin-top: 50px;
+    border-radius: 25px;
+    float: left;
+    cursor: pointer;
+}
+#hinhap {
+    width: 130px;
+    height: 115px;
+    margin-top: 25px;
+    margin-left: 23px;
+}
+.content #contentap p {
+    text-align: center;
+    color: white;
+}
+#contentat{
+    width: 179px;
+    height: 217px;
+    background-color: #323232;
+    margin-left: 20px;
+    margin-top: 50px;
+    border-radius: 25px;
+    float: left;
+    cursor: pointer;
+}
+#hinhat {
+    width: 130px;
+    height: 120px;
+    margin-top: 25px;
+    margin-left: 23px;
+}
+.content #contentat p {
+    text-align: center;
+    color: white;
+}
+#NameIP {
+    width: 190px;
+    height: 50px;
+    float: left;
+    margin-top: 18px;
+    margin-top: 100px;
+    margin-left: 675px;
+    background-color: #3e3e3f;
+    text-decoration: none;
+}
+#tagNameiPhone {
+    text-align: center;
+    font-size: 40px;
+    margin-top: -7px;
+    color: rgb(255, 255, 255);
+    margin-left: 35px;
+}
+#logoIP {
+    text-align: center;
+    font-size: 40px;
+    float: left;
+    margin-right: -50px;
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+#HomeIp {
+    width: 278px;
+    height: 427px;
+    float: left;
+    margin-top: 250px;
+    margin-left: -700px;
+    border-radius: 25px;
+    background-color: #323232;
+    text-decoration: none;
+}
+#HomeIp p {
+    color: #fff;
+    margin-left: 50px;
+}
+#HomeIp b {
+    color: #fff;
+    margin-left: 25px;
+    font-size: 20px;
+    float: left;
+    clear: both;
+    margin-right: 5px;
+}
+#sale1 {
+    text-decoration: line-through;
+    line-height: 28px;
+}
+#HomeIp2 {
+    width: 278px;
+    height: 427px;
+    float: left;
+    margin-top: 250px;
+    margin-left: -390px;
+    border-radius: 25px;
+    background-color: #323232;
+    text-decoration: none;
+}
+#HomeIp2 p {
+    color: #fff;
+    margin-left: 50px;
+}
+#HomeIp2 b {
+    color: #fff;
+    margin-left: 25px;
+    font-size: 20px;
+    float: left;
+    clear: both;
+    margin-right: 5px;
+}
+#HomeIp3 {
+    width: 278px;
+    height: 427px;
+    float: left;
+    margin-top: 250px;
+    margin-left: -80px;
+    border-radius: 25px;
+    background-color: #323232;
+    text-decoration: none;
+}
+#HomeIp3 p {
+    color: #fff;
+    margin-left: 50px;
+}
+#HomeIp3 b {
+    color: #fff;
+    margin-left: 25px;
+    font-size: 20px;
+    float: left;
+    clear: both;
+    margin-right: 5px;
+}
+#HomeIp4 {
+    width: 278px;
+    height: 427px;
+    float: left;
+    margin-top: 250px;
+    margin-left: 30px;
+    border-radius: 25px;
+    background-color: #323232;
+    text-decoration: none;
+}
+#HomeIp4 p {
+    color: #fff;
+    margin-left: 70px;
+}
+#HomeIp4 b {
+    color: #fff;
+    margin-left: 25px;
+    font-size: 20px;
+    float: left;
+    clear: both;
+    margin-right: 5px;
+}
+#hinh14prm{
+    width: 370px;
+    margin-top: 20px;
+    margin-left:-42px;
+}
+#hinh14pro{
+    width: 272px;
+    margin-top: 20px;
+    margin-left: 3px;
+    margin-bottom: 8px;
+}
+#hinh14thuong{
+    width: 272px;
+    margin-top: 21px;
+    margin-left: 3px;
+    margin-bottom: 8px;
+}
+#tagNameMac {
+    text-align: center;
+    font-size: 40px;
+    margin-top: -7px;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    margin-right: 40px;
+}
+#logoIP2 {
+        text-align: center;
+        font-size: 40px;
+        float: left;
+        color: white;
+        text-decoration: none;
+        margin-left: 35px; 
+}
+#HomeMac {
+    width: 278px;
+    height: 427px;
+    float: left;
+    margin-top: 250px;
+    margin-left: -700px;
+    border-radius: 25px;
+    background-color: #323232;
+    text-decoration: none;
+}
+#HomeMac p {
+    color: #fff;
+    margin-left: 50px;
+    text-align: center;
+    margin-left: -13px;
+}
+#HomeMac b {
+    color: #fff;
+    margin-left: 25px;
+    font-size: 20px;
+    float: left;
+    clear: both;
+    margin-right: -40px;
+}
+#sale1 {
+    text-decoration: line-through;
+    line-height: 28px;
+}
+#HomeMac2 {
+    width: 278px;
+    height: 427px;
+    float: left;
+    margin-top: 250px;
+    margin-left: -390px;
+    border-radius: 25px;
+    background-color: #323232;
+    text-decoration: none;
+}
+#HomeMac2 p {
+    color: #fff;
+    margin-left: 50px;
+    text-align: center;
+    margin-left: -13px;
+}
+#HomeMac2 b {
+    color: #fff;
+    margin-left: 25px;
+    font-size: 20px;
+    float: left;
+    clear: both;
+    margin-right: -40px;
+}
+#sale2 {
+    text-decoration: line-through;
+    line-height: 28px;
+}
+#HomeMac3 {
+    width: 278px;
+    height: 427px;
+    float: left;
+    margin-top: 250px;
+    margin-left: -80px;
+    border-radius: 25px;
+    background-color: #323232;
+    text-decoration: none;
+}
+#HomeMac3 p {
+    color: #fff;
+    margin-left: 10px;
+    text-align: center;
+    margin-top: -3px;
+}
+#HomeMac3 b {
+    color: #fff;
+    margin-left: 25px;
+    font-size: 20px;
+    float: left;
+    clear: both;
+    margin-right: -40px;
+}
+#sale3 {
+    text-decoration: line-through;
+    line-height: 35px;
+}
+#HomeMac4 {
+    width: 278px;
+    height: 427px;
+    float: left;
+    margin-top: 250px;
+    margin-left: 30px;
+    border-radius: 25px;
+    background-color: #323232;
+    text-decoration: none;
+}
+#HomeMac4 p {
+    color: #fff;
+    margin-left: 50px;
+    text-align: center;
+    margin-left: 10px;
+}
+#HomeMac4 b {
+    color: #fff;
+    margin-left: 25px;
+    font-size: 20px;
+    float: left;
+    clear: both;
+    margin-right: -40px;
+}
+#sale4 {
+    text-decoration: line-through;
+    line-height: 28px;
+}
+#hinhm1{
+    width: 300px;
+    margin-top: -15px;
+    margin-left: -8px;
+}
+#hinhmpro{
+    width: 245px;
+    margin-top: 27px;
+    margin-left: 20px;
+}
+#hinhiMac{
+    width: 275px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+#HomeIp:hover {
+    transition: 0.5s;
+    box-shadow: 0px 1px 18px 2px #dad8d8;
+}
+#HomeIp2:hover {
+    transition: 0.5s;
+    box-shadow: 0px 1px 18px 2px #dad8d8;
+}
+#HomeIp3:hover {
+    transition: 0.5s;
+    box-shadow: 0px 1px 18px 2px #dad8d8;
+}
+#HomeIp4:hover {
+    transition: 0.5s;
+    box-shadow: 0px 1px 18px 2px #dad8d8;
+}
+#HomeMac:hover {
+    transition: 0.5s;
+    box-shadow: 0px 1px 18px 2px #dad8d8;
+}
+#HomeMac2:hover {
+    transition: 0.5s;
+    box-shadow: 0px 1px 18px 2px #dad8d8;
+}
+#HomeMac3:hover {
+    transition: 0.5s;
+    box-shadow: 0px 1px 18px 2px #dad8d8;
+}
+#HomeMac4:hover {
+    transition: 0.5s;
+    box-shadow: 0px 1px 18px 2px #dad8d8;
+}
+#contentip:hover {
+    transition: 0.5s;
+    box-shadow: 0px 1px 8px 2px #dad8d8;
+}
+#contentmac:hover {
+    transition: 0.5s;
+    box-shadow: 0px 1px 8px 2px #dad8d8;
+}
+#contentipad:hover {
+    transition: 0.5s;
+    box-shadow: 0px 1px 8px 2px #dad8d8;
+}
+#contentaw:hover {
+    transition: 0.5s;
+    box-shadow: 0px 1px 8px 2px #dad8d8;
+}
+#contentap:hover {
+    transition: 0.5s;
+    box-shadow: 0px 1px 8px 2px #dad8d8;
+}
+#contentat:hover {
+    transition: 0.5s;
+    box-shadow: 0px 1px 8px 2px #dad8d8;
+}
+#hinhipad9 {
+    width: 275px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+#hinhiPad10 {
+    width: 275px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+#hinhiPadM2 {
+    width: 275px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+#hinhiPadA5 {
+    width: 275px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+#HomeIPad {
+    width: 278px;
+    height: 427px;
+    float: left;
+    margin-top: 250px;
+    margin-left: -700px;
+    border-radius: 25px;
+    background-color: #323232;
+    text-decoration: none;
+}
+#HomeIPad p {
+    color: #fff;
+    text-align: center;
+    margin-left: -10px;
+}
+#HomeIPad b {
+    color: #fff;
+    margin-left: 25px;
+    font-size: 20px;
+    float: left;
+    clear: both;
+    margin-right: -40px;
+}
+#sale1 {
+    text-decoration: line-through;
+    line-height: 28px;
+}
+#HomeIPad2 {
+    width: 278px;
+    height: 427px;
+    float: left;
+    margin-top: 250px;
+    margin-left: -390px;
+    border-radius: 25px;
+    background-color: #323232;
+    text-decoration: none;
+}
+#HomeIPad2 p {
+    color: #fff;
+    margin-left: 50px;
+    text-align: center;
+    margin-left: -13px;
+}
+#HomeIPad2 b {
+    color: #fff;
+    margin-left: 25px;
+    font-size: 20px;
+    float: left;
+    clear: both;
+    margin-right: -40px;
+}
+#sale2 {
+    text-decoration: line-through;
+    line-height: 28px;
+}
+#HomeIPad3 {
+    width: 278px;
+    height: 427px;
+    float: left;
+    margin-top: 250px;
+    margin-left: -80px;
+    border-radius: 25px;
+    background-color: #323232;
+    text-decoration: none;
+}
+#HomeIPad3 p {
+    color: #fff;
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 18px;
+}
+#HomeIPad3 b {
+    color: #fff;
+    margin-left: 25px;
+    font-size: 20px;
+    float: left;
+    clear: both;
+    margin-right: -40px;
+}
+#sale3 {
+    text-decoration: line-through;
+    line-height: 35px;
+}
+#HomeIPad4 {
+    width: 278px;
+    height: 427px;
+    float: left;
+    margin-top: 250px;
+    margin-left: 30px;
+    border-radius: 25px;
+    background-color: #323232;
+    text-decoration: none;
+}
+#HomeIPad4 p {
+    color: #fff;
+    margin-left: 50px;
+    text-align: center;
+    margin-left: 10px;
+}
+#HomeIPad4 b {
+    color: #fff;
+    margin-left: 25px;
+    font-size: 20px;
+    float: left;
+    clear: both;
+    margin-right: -40px;
+}
+#HomeIPad:hover {
+    transition: 0.5s;
+    box-shadow: 0px 1px 18px 2px #dad8d8;
+}
+#HomeIPad2:hover {
+    transition: 0.5s;
+    box-shadow: 0px 1px 18px 2px #dad8d8;
+}
+#HomeIPad3:hover {
+    transition: 0.5s;
+    box-shadow: 0px 1px 18px 2px #dad8d8;
+}
+#HomeIPad4:hover {
+    transition: 0.5s;
+    box-shadow: 0px 1px 18px 2px #dad8d8;
+}
+.footer {
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+    float: left;
+    background-color: #101010;
+}
+.footer h1 {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+}
+.footer p {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+    #head {
+        width: 100.4%;
+        height: 15rem;
+    }
+    #logo {
+    font-size: 1rem;
+    margin-left: 7.5rem;
+    }
+    #store 
+    {
+        font-size: 1.3rem;
+    }
+    #IPhone {
+      width: 100.4%;
+        margin-left: -0.05rem;
+    }
+    #Features
+    {
+      width: 100.4%;
+        margin-left: -0.05rem;
+        margin-bottom: -1.45rem;
+    }
+    #search-text
+    {
+        width: 15rem;
+        height: 3rem;
+        margin-left: -0.05rem;
+    }
+    .shopping {
+        width: 3rem;
+        height: 3.1rem;
+        margin-top: 1.45rem;
+        margin-left: 0rem;
+    }
+    #bag {
+        margin-left: 1.2rem;
+    }
+    .login {
+        width: 4.3rem;
+        height: 3.1rem;
+        margin-top: 1.45rem;
+        margin-left: 0.03rem;
+    }
+    #user {
+        margin-left: 1.5rem;
+    }
+    .slider-container
+    {
+        width: 100.4%;
+        height: 15rem;
+    }
+    .slide-1 {
+        height: 7rem;
+      }
+      .slide-2 {
+        height: 7rem;
+      }
+      .slide-3 {
+        height: 7rem;
+      }
+      #contentip
+      {
+        width: 7rem;
+        height: 9rem;
+        margin-left: 0.5rem;
+      }
+      #hinhip14 {
+        width: 4.5rem;
+        transform: translate(-1.2rem,-1rem);
+      }
+      #contentip p {
+        font-size: 0.8rem;
+        transform: translate(0rem,-1.3rem);
+      }
+      #contentmac
+      {
+        width: 7rem;
+        height: 9rem;
+        margin-left: 1rem;
+      }
+      #hinhmac {
+        width: 6.5rem;
+        transform: translate(0.9rem,-1rem);
+      }
+      #contentmac p {
+        font-size: 0.8rem;
+        transform: translate(0rem,-3rem);
+      }
+      #contentipad
+      {
+        width: 7rem;
+        height: 9rem;
+        margin-left: 1rem;
+      }
+      #hinhipad {
+        width: 6rem;
+        height: 6.5rem;
+        transform: translate(-0.3rem,-0.6rem);
+      }
+      #contentipad p {
+        font-size: 0.8rem;
+        transform: translate(0rem,-1.8rem);
+      }
+      #contentaw
+      {
+        width: 7rem;
+        height: 9rem;
+        margin-left: 0.5rem;
+        margin-top: 1rem;
+      }
+      #hinhaw{
+        width: 10rem;
+        height: 5rem;
+        transform: translate(-0.9rem,-0.5rem);
+      }
+      #contentaw p {
+        font-size: 0.8rem;
+        transform: translate(0rem,-0.7rem);
+      }
+      #contentap
+      {
+        width: 7rem;
+        height: 9rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
+      }
+      #hinhap {
+        width: 5rem;
+        height: 5rem;
+        transform: translate(-0.4rem,0.1rem);
+      }
+      #contentap p {
+        font-size: 0.8rem;
+        transform: translate(0rem,-0.4rem);
+      }
+      #contentat
+      {
+        width: 7rem;
+        height: 9rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
+      }
+      #hinhat {
+        width: 5rem;
+        height: 5rem;
+        transform: translate(-0.4rem,0.1rem);
+      }
+      #contentat p {
+        font-size: 0.8rem;
+        transform: translate(0rem,-0.4rem);
+      }
+      #NameIP {
+        margin-left: 6rem;
+        margin-top: 2rem;
+      }
+      #HomeIp {
+        margin-left: 4rem;
+        width: 7rem;
+        height: 9rem;
+        margin-top: 2rem;
+        margin-right: 2rem;
+      }
+      #hinh14prm {
+        width: 7rem;
+        height: 5rem;
+        margin-left: 0.1rem;
+        margin-top: 0.4rem;
+      }
+      #HomeIp p {
+        font-size: 0.5rem;
+        margin-left: 0.8rem;
+        margin-top: 0.2rem;
+      }
+      #HomeIp b {
+        font-size: 0.5rem;
+        margin-left: 0.5rem;
+        margin-top: 0.2rem;
+      }
+      #HomeIp #sale1 {
+        transform: translate(0.1rem,-0.3rem);
+      }
+      
+      #HomeIp2 {
+        margin-left: 0.5rem;
+        width: 7rem;
+        height: 9rem;
+        margin-top: 2rem;
+        margin-right: 0.5rem;
+      }
+      #hinh14prm {
+        width: 7rem;
+        height: 5rem;
+        margin-left: 0.1rem;
+        margin-top: 0.4rem;
+      }
+      #HomeIp2 p {
+        font-size: 0.5rem;
+        margin-left: 0.8rem;
+        margin-top: 0.2rem;
+      }
+      #HomeIp2 b {
+        font-size: 0.5rem;
+        margin-left: 0.5rem;
+        margin-top: 0.2rem;
+      }
+      #HomeIp2 #sale1 {
+        transform: translate(0.1rem,-0.3rem);
+      }
+      #HomeIp3 {
+        margin-left: 4rem;
+        width: 7rem;
+        height: 9rem;
+        margin-top: 2rem;
+        margin-right: 2rem;
+      }
+      #hinh14pro{
+        width: 5rem;
+        height: 5rem;
+        margin-left: 0.9rem;
+        margin-top: 0.5rem;
+      }
+      #HomeIp3 p {
+        font-size: 0.5rem;
+        margin-left: 1rem;
+        margin-top: -0.3rem;
+      }
+      #HomeIp3 b {
+        font-size: 0.5rem;
+        margin-left: 0.5rem;
+        margin-top: 0.2rem;
+      }
+      #HomeIp3 #sale1 {
+        transform: translate(0.1rem,0.05rem);
+      }
+      
+      #HomeIp4 {
+        margin-left: 0.5rem;
+        width: 7rem;
+        height: 9rem;
+        margin-top: 2rem;
+        margin-right: 0.5rem;
+      }
+      #hinh14thuong {
+        width: 6rem;
+        height: 5rem;
+        margin-left: 0.7rem;
+        margin-top: 0.4rem;
+      }
+      #HomeIp4 p {
+        font-size: 0.5rem;
+        margin-left: 1.7rem;
+        margin-top: 0.1rem;
+      }
+      #HomeIp4 b {
+        font-size: 0.5rem;
+        margin-left: 0.5rem;
+        margin-top: 0rem;
+      }
+      #HomeIp4 #sale1 {
+        transform: translate(0.1rem,-0.5rem);
+      }
+      #HomeMac {
+        margin-left: 4rem;
+        width: 7rem;
+        height: 9rem;
+        margin-top: 2rem;
+        margin-right: 2rem;
+      }
+      #hinhm1 {
+        width: 7rem;
+        height: 7rem;
+        margin-left: 0.1rem;
+        margin-top: -0.9rem;
+      }
+      #HomeMac p {
+        font-size: 0.5rem;
+        margin-left: 0.1rem;
+        margin-top: -0.8rem;
+      }
+      #HomeMac b {
+        font-size: 0.5rem;
+        margin-left: 0.5rem;
+        margin-top: -0.4rem;
+      }
+      #HomeMac #sale1 {
+        transform: translate(1rem,-0.1rem);
+      }
+      #HomeMac2 {
+        margin-left: 0.5rem;
+        width: 7rem;
+        height: 9rem;
+        margin-top: 2rem;
+        margin-right: 0.5rem;
+      }
+      #hinh14prm {
+        width: 7rem;
+        height: 5rem;
+        margin-left: 0.1rem;
+        margin-top: 0.4rem;
+      }
+      #HomeMac2 p {
+        font-size: 0.5rem;
+        margin-left: 0.1rem;
+        margin-top: -0.8rem;
+      }
+      #HomeMac2 b {
+        font-size: 0.5rem;
+        margin-left: 0.5rem;
+        margin-top: -0.4rem;
+      }
+      #HomeMac2 #sale2 {
+        transform: translate(1rem,-0.1rem);
+      }
+      #HomeMac3 {
+        margin-left: 4rem;
+        width: 7rem;
+        height: 9rem;
+        margin-top: 2rem;
+        margin-right: 2rem;
+      }
+      #hinhmpro {
+        width: 5rem;
+        height: 5rem;
+        margin-left: 1rem;
+        margin-top: 0.6rem;
+      }
+      #HomeMac3 p {
+        font-size: 0.5rem;
+        margin-left: 0.1rem;
+        margin-top: -0.4rem;
+      }
+      #HomeMac3 b {
+        font-size: 0.5rem;
+        margin-left: 0.5rem;
+        margin-top: -0.3rem;
+      }
+      #HomeMac3 #sale3 {
+        transform: translate(1rem,-0.58rem);
+      }
+      #HomeMac4 {
+        margin-left: 0.5rem;
+        width: 7rem;
+        height: 9rem;
+        margin-top: 2rem;
+        margin-right: 0.5rem;
+      }
+      #hinhiMac {
+        width: 6rem;
+        height: 5rem;
+        margin-left: 0.6rem;
+        margin-top: 0.4rem;
+      }
+      #HomeMac4 p {
+        font-size: 0.5rem;
+        margin-left: 0.1rem;
+        margin-top: -0.1rem;
+      }
+      #HomeMac4 b {
+        font-size: 0.5rem;
+        margin-left: 0.5rem;
+        margin-top: -0.4rem;
+      }
+      #HomeMac4 #sale4 {
+        transform: translate(1rem,-0.8rem);
+      }
+      #HomeIPad {
+        margin-left: 4rem;
+        width: 7rem;
+        height: 9rem;
+        margin-top: 2rem;
+        margin-right: 2rem;
+      }
+      #hinhipad9 {
+        width: 5rem;
+        height: 5rem;
+        margin-left: 1rem;
+        margin-top: 0.6rem;
+      }
+      #HomeIPad p {
+        font-size: 0.5rem;
+        margin-left: 0.1rem;
+        margin-top: 0.4rem;
+      }
+      #HomeIPad b {
+        font-size: 0.5rem;
+        margin-left: 0.7rem;
+        margin-top: -0.1rem;
+      }
+      #HomeIPad #sale1 {
+        transform: translate(1rem,-0.6rem);
+      }
+      #HomeIPad2 {
+        margin-left: 0.5rem;
+        width: 7rem;
+        height: 9rem;
+        margin-top: 2rem;
+        margin-right: 0.5rem;
+      }
+      #hinhiPad10 {
+        width: 5.5rem;
+        height: 5rem;
+        margin-left: 1rem;
+        margin-top: 0.6rem;
+      }
+      #HomeIPad2 p {
+        font-size: 0.5rem;
+        margin-left: 0.1rem;
+        margin-top: 0.4rem;
+      }
+      #HomeIPad2 b {
+        font-size: 0.5rem;
+        margin-left: 0.7rem;
+        margin-top: -0.1rem;
+      }
+      #HomeIPad2 #sale1 {
+        transform: translate(1rem,-0.6rem);
+      }
+      #HomeIPad3 {
+        margin-left: 4rem;
+        width: 7rem;
+        height: 9rem;
+        margin-top: 2rem;
+        margin-right: 2rem;
+      }
+      #hinhiPadM2 {
+        width: 5rem;
+        height: 5rem;
+        margin-left: 1rem;
+        margin-top: 0.6rem;
+      }
+      #HomeIPad3 p {
+        font-size: 0.5rem;
+        margin-left: 0.1rem;
+        margin-top: 0.4rem;
+      }
+      #HomeIPad3 b {
+        font-size: 0.5rem;
+        margin-left: 0.7rem;
+        margin-top: -0.1rem;
+      }
+      #HomeIPad3 #sale1 {
+        transform: translate(1rem,-0.6rem);
+      }
+      #HomeIPad4 {
+        margin-left: 0.5rem;
+        width: 7rem;
+        height: 9rem;
+        margin-top: 2rem;
+        margin-right: 0.5rem;
+      }
+      #hinhiPadA5 {
+        width: 5.5rem;
+        height: 5rem;
+        margin-left: 0.8rem;
+        margin-top: 0.6rem;
+      }
+      #HomeIPad4 p {
+        font-size: 0.5rem;
+        margin-left: 0.1rem;
+        margin-top: 0.4rem;
+      }
+      #HomeIPad4 b {
+        font-size: 0.5rem;
+        margin-left: 0.7rem;
+        margin-top: -0.1rem;
+      }
+      #HomeIPad4 #sale1 {
+        transform: translate(1rem,-0.6rem);
+      }
+   
+    }

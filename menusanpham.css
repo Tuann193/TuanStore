@@ -1,0 +1,676 @@
+.main {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #3e3e3f;
+}
+#head{
+    width:100%;
+    height: 70px;
+    border: 1px solid black;
+    background-color: black;
+}
+#logo{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    line-height: 65px;
+    margin-left: 90px;
+    float: left;
+}
+#store{
+    font-size: 25px;
+    line-height: 25px ;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float:left;
+    margin-left: 5px;
+    margin-right: 90px;
+    margin-top: 20px;
+}
+#IPhone {
+    width: 100px;
+    height: 68px;
+    background-color: rgb(0, 0, 0);
+    float: left;
+    text-decoration: none;
+}
+#Features {
+    width: 100px;
+    height: 68px;
+    background-color: rgb(0, 0, 0);
+    float: left;
+    text-decoration: none;
+    margin-right: 30px;
+}
+#ip {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    line-height: 30px;
+    margin-top: 20px;
+}
+#IPhone:hover {
+    transition: 0.5s;
+    background-color: rgb(181, 180, 180);
+}
+#Features:hover {
+    transition: 0.5s;
+    background-color: rgb(181, 180, 180);
+}
+#search-box {
+    margin-top: 20px;
+    background-color: #000000;
+    float:left;
+}
+#search-text {
+    border: none;
+    outline: none;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 120px;
+}
+#search-btn {
+    padding: 5px;
+    background-color: #000000;
+    border:none;
+    cursor:pointer;
+    color:rgb(255, 255, 255);
+    font-size: 15px;
+}
+.shopping {
+    width: 36px;
+    height: 50px;
+    float: left;
+    background-color: rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-left: 50px;
+}
+#bag {
+    font-size: 30px;
+    line-height: 50px;
+    text-decoration: none;
+    color: white;
+}
+.login {
+    width: 2.25rem;
+    height: 3.125px;
+    float: left;
+    background-color: rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-left: 40px;
+}
+#user {
+    font-size: 30px;
+    line-height: 50px;
+    text-decoration: none;
+    color: white;
+}
+html, body {
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+}
+.container {
+    width: 100%;
+    height: auto;
+    background-color: #3E3E3F;
+}
+.content {
+    width: 100%;
+    height: 100rem;
+    background-color: #3E3E3F;
+}
+#logoIP14 {
+width: 190px;
+height: 50px;
+float: left;
+margin-top: 40px;
+margin-left: 670px;
+background-color: #3e3e3f;
+}
+#tagNameiPhone {
+    text-align: center;
+    font-size: 40px;
+    margin-top: -7px;
+    color: rgb(255, 255, 255);
+    margin-left: 35px;
+}
+#logoIP {
+    text-align: center;
+    font-size: 40px;
+    float: left;
+    margin-right: -50px;
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.Product {
+    width: 23.5rem;
+    height: 26.5rem;
+    float: left;
+    clear: left;
+    margin-left: 11rem;
+    margin-top: 10rem;
+    border-radius: 30px;
+    background-color: #323232;
+    text-decoration: none;
+}
+#hinh1 {
+    width: 15rem;
+    margin-left: 4rem;
+    margin-top: 0.5rem;
+    float: left;
+}
+#namepd1{
+    float: left;
+    color: white;
+    margin-top: 2rem;
+    margin-left: 8rem;
+}
+#gia1 {
+    float: left;
+    color: white;
+    margin-left: 4rem;
+    font-size: 20px;
+    font-weight: 700;
+}
+#giamgia1 {
+    float: left;
+    color: white;
+    margin-left: 0.4rem;
+    margin-top: 0.3rem;
+    text-decoration: line-through;
+}
+#sale1 {
+    float: left;
+    color: white;
+    margin-top: 0.3rem;
+    margin-left: 0.4rem;
+}
+.Product2 {
+    width: 23.5rem;
+    height: 26.5rem;
+    float: left;
+    margin-left: 1rem;
+    margin-top: 10rem;
+    border-radius: 30px;
+    background-color: #323232;
+    text-decoration: none;
+}
+#hinh2 {
+    width: 18.5rem;
+    margin-left: 2.5rem;
+    margin-top: 1.5rem;
+    float: left;
+}
+#namepd2{
+    float: left;
+    color: white;
+    margin-top: 2rem;
+    margin-left: 7.7rem;
+}
+#gia2 {
+    float: left;
+    color: white;
+    margin-left: 4rem;
+    font-size: 20px;
+    font-weight: 700;
+}
+#giamgia2 {
+    float: left;
+    color: white;
+    margin-left: 0.4rem;
+    margin-top: 0.3rem;
+    text-decoration: line-through;
+}
+#sale2 {
+    float: left;
+    color: white;
+    margin-top: 0.3rem;
+    margin-left: 0.4rem;
+}
+#hinh3 {
+    width: 13.7rem;
+    margin-left: 5rem;
+    margin-top: 1.5rem;
+    float: left;
+}
+#namepd3{
+    float: left;
+    color: white;
+    margin-top: 2rem;
+    margin-left: 8.7rem;
+}
+.Product3 {
+    width: 23.5rem;
+    height: 26.5rem;
+    float: left;
+    clear: left;
+    margin-left: 11rem;
+    margin-top: 1rem;
+    border-radius: 30px;
+    background-color: #323232;
+    text-decoration: none;
+}
+#hinh3{
+    width: 15rem;
+    margin-left: 4rem;
+    margin-top: 0.5rem;
+    float: left;
+}
+#namepd3{
+    float: left;
+    color: white;
+    margin-top: 2rem;
+    margin-left: 9.5rem;
+}
+#gia3 {
+    float: left;
+    color: white;
+    margin-left: 4rem;
+    font-size: 20px;
+    font-weight: 700;
+}
+#giamgia3 {
+    float: left;
+    color: white;
+    margin-left: 0.4rem;
+    margin-top: 0.3rem;
+    text-decoration: line-through;
+}
+#sale3 {
+    float: left;
+    color: white;
+    margin-top: 0.3rem;
+    margin-left: 0.4rem;
+}
+.Product4 {
+    width: 23.5rem;
+    height: 26.5rem;
+    float: left;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border-radius: 30px;
+    background-color: #323232;
+    text-decoration: none;
+}
+#hinh4 {
+    width: 13.5rem;
+    margin-left: 5.5rem;
+    margin-top: 1.9rem;
+    float: left;
+}
+#namepd4{
+    float: left;
+    color: white;
+    margin-top: 2rem;
+    margin-left: 7.7rem;
+}
+#gia4 {
+    float: left;
+    color: white;
+    margin-left: 4rem;
+    font-size: 20px;
+    font-weight: 700;
+}
+#giamgia4 {
+    float: left;
+    color: white;
+    margin-left: 0.4rem;
+    margin-top: 0.3rem;
+    text-decoration: line-through;
+}
+#sale4 {
+    float: left;
+    color: white;
+    margin-top: 0.3rem;
+    margin-left: 0.4rem;
+}
+#namepd5{
+    float: left;
+    color: white;
+    margin-top: 2rem;
+    margin-left: 9.5rem;
+}
+#namepd6{
+    float: left;
+    color: white;
+    margin-top: 2rem;
+    margin-left: 8rem;
+}
+.Product:hover {
+    box-shadow: 1px 1px 20px 0px rgba(255,255,255,1);
+    transition: 0.2s;
+}
+.Product2:hover {
+    box-shadow: 1px 1px 20px 0px rgba(255,255,255,1);
+    transition: 0.2s;
+}
+.Product3:hover {
+    box-shadow: 1px 1px 20px 0px rgba(255,255,255,1);
+    transition: 0.2s;
+}
+.Product4:hover {
+    box-shadow: 1px 1px 20px 0px rgba(255,255,255,1);
+    transition: 0.2s;
+}
+.footer {
+    width: 100%;
+    height: 31.25rem;
+    border: 1px solid black;
+    float: left;
+    background-color: #101010;
+}
+.footer h1 {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+}
+.footer p {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+    #head {
+        width: 100%;
+        height: 15rem;
+    }
+    #logo {
+    font-size: 1rem;
+    margin-left: 7.5rem;
+    }
+    #store 
+    {
+        font-size: 1.3rem;
+    }
+    #IPhone {
+        width: 100%;
+        margin-left: -0.04rem;
+    }
+    #Features
+    {
+        width: 100%;
+        margin-left: -0.04rem;
+        margin-bottom: -1.3rem;
+    }
+    #search-text
+    {
+        width: 15rem;
+        height: 3rem;
+        margin-left: -0.05rem;
+    }
+    .shopping {
+        width: 3rem;
+        height: 3.1rem;
+        margin-top: 1.15rem;
+        margin-left: 0rem;
+    }
+    #bag {
+        margin-left: 1.2rem;
+    }
+    .login {
+        width: 4.5rem;
+        height: 3.1rem;
+        margin-top: 1.15rem;
+        margin-left: 0rem;
+    }
+    #user {
+        margin-left: 1.5rem;
+    }
+    #logoIP14 { 
+        font-size: 1rem;
+        margin-left: 5.5rem;
+    }
+    #head {
+        width: auto;
+    }
+   .Product {
+    width: 7rem;
+    height: 9rem;
+    transform: translate(-11rem,-8rem);
+   }
+   #hinh1 {
+    width: 5rem;
+    transform: translate(-3rem,0rem);
+   }
+  #namepd1 {
+    font-size: 0.6rem;
+    margin-left: 1.5rem;
+    margin-top: 0.2rem;
+  }
+  #gia1 {
+    font-size: 0.5rem;
+    margin-left: 0.5rem;
+    margin-top: -1rem;
+  }
+  #giamgia1 {
+    font-size: 0.5rem;
+    margin-left: 0.2rem;
+    margin-top: -1rem;
+  }
+  #sale1 {
+    font-size: 0.7rem;
+    margin-top: -1rem;
+    margin-left: 2.7rem;
+  }
+  .Product2 {
+    width: 7rem;
+    height: 9rem;
+    transform: translate(7rem,-27rem);
+   }
+   #hinh2 {
+    width: 6rem;
+    transform: translate(-2rem,-0.3rem);
+   }
+  #namepd2 {
+    font-size: 0.6rem;
+    margin-left: 1.1rem;
+    margin-top: -0.3rem;
+  }
+  #gia2 {
+    font-size: 0.5rem;
+    margin-left: 0.5rem;
+    margin-top: -1rem;
+  }
+  #giamgia2 {
+    font-size: 0.5rem;
+    margin-left: 0.2rem;
+    margin-top: -1rem;
+  }
+  #sale2 {
+    font-size: 0.7rem;
+    margin-top: -1rem;
+    margin-left: 2.7rem;
+  }
+  #hinh3 {
+    width: 5rem;
+    transform: translate(-3rem,0.2rem);
+  }
+  #namepd3 {
+    font-size: 0.6rem;
+    margin-left: 1.6rem;
+    margin-top: 0.2rem;
+  }
+  .pd4 {
+    width: 7rem;
+    height: 9rem;
+    transform: translate(-11rem,-27rem);
+   }
+   .pd4 #hinh3 {
+    width: 5rem;
+    transform: translate(-3rem,0rem);
+   }
+  .pd4 #namepd3{
+    font-size: 0.6rem;
+    margin-left: 2.1rem;
+    margin-top: 0.2rem;
+  }
+  .pd4 #gia3 {
+    font-size: 0.5rem;
+    margin-left: 0.5rem;
+    margin-top: -1rem;
+  }
+  .pd4 #giamgia3 {
+    font-size: 0.5rem;
+    margin-left: 0.2rem;
+    margin-top: -1rem;
+  }
+  .pd4 #sale3 {
+    font-size: 0.7rem;
+    margin-top: -1rem;
+    margin-left: 2.7rem;
+  }
+  .pd5 {
+    width: 7rem;
+    height: 9rem;
+    transform: translate(7rem,-37.1rem);
+   }
+   .pd5 #hinh4 {
+    width: 4.5rem;
+    transform: translate(-4.2rem,-0.9rem);
+   }
+  .pd5 #namepd4 {
+    font-size: 0.6rem;
+    margin-left: 1.1rem;
+    margin-top: -0.5rem;
+  }
+  .pd5 #gia4 {
+    font-size: 0.5rem;
+    margin-left: 0.5rem;
+    margin-top: -1rem;
+  }
+  .pd5 #giamgia4 {
+    font-size: 0.5rem;
+    margin-left: 0.2rem;
+    margin-top: -1rem;
+  }
+  .pd5 #sale4 {
+    font-size: 0.7rem;
+    margin-top: -1rem;
+    margin-left: 2.7rem;
+  }
+  .pd6 {
+    width: 7rem;
+    height: 9rem;
+    transform: translate(7rem,-37.1rem);
+   }
+   .pd6 #hinh4 {
+    width: 4.5rem;
+    transform: translate(-4.2rem,-0.9rem);
+   }
+  .pd6 #namepd5 {
+    font-size: 0.6rem;
+    margin-left: 2.2rem;
+    margin-top: -0.6rem;
+  }
+  .pd6 #gia4 {
+    font-size: 0.5rem;
+    margin-left: 0.5rem;
+    margin-top: -1rem;
+  }
+  .pd6 #giamgia4 {
+    font-size: 0.5rem;
+    margin-left: 0.2rem;
+    margin-top: -1rem;
+  }
+  .pd6 #sale4 {
+    font-size: 0.7rem;
+    margin-top: -1rem;
+    margin-left: 2.7rem;
+  }
+  .pd7 {
+    width: 7rem;
+    height: 9rem;
+    transform: translate(-11rem,-37rem);
+   }
+   .pd7 #hinh3 {
+    width: 5rem;
+    transform: translate(-3rem,0rem);
+   }
+  .pd7 #namepd6{
+    font-size: 0.6rem;
+    margin-left: 1.5rem;
+    margin-top: 0.2rem;
+  }
+  .pd7 #gia3 {
+    font-size: 0.5rem;
+    margin-left: 0.5rem;
+    margin-top: -1rem;
+  }
+  .pd7 #giamgia3 {
+    font-size: 0.5rem;
+    margin-left: 0.2rem;
+    margin-top: -1rem;
+  }
+  .pd7 #sale3 {
+    font-size: 0.7rem;
+    margin-top: -1rem;
+    margin-left: 2.7rem;
+  }
+  .pd8 {
+    width: 7rem;
+    height: 9rem;
+    transform: translate(7rem,-47rem);
+   }
+   .pd8 #hinh4 {
+    width: 4.5rem;
+    transform: translate(-4.2rem,-0.9rem);
+   }
+  .pd8 #namepd5 {
+    font-size: 0.6rem;
+    margin-left: 2.2rem;
+    margin-top: -0.7rem;
+  }
+  .pd8 #gia4 {
+    font-size: 0.5rem;
+    margin-left: 0.5rem;
+    margin-top: -1rem;
+  }
+  .pd8 #giamgia4 {
+    font-size: 0.5rem;
+    margin-left: 0.2rem;
+    margin-top: -1rem;
+  }
+  .pd8 #sale4 {
+    font-size: 0.7rem;
+    margin-top: -1rem;
+    margin-left: 2.7rem;
+  }
+  .pd9 {
+    width: 7rem;
+    height: 9rem;
+    transform: translate(7rem,-47rem);
+   }
+   .pd9 #hinh4 {
+    width: 4.5rem;
+    transform: translate(-4.2rem,-0.9rem);
+   }
+  .pd9 #namepd5 {
+    font-size: 0.6rem;
+    margin-left: 2.2rem;
+    margin-top: -0.6rem;
+  }
+  .pd9 #gia4 {
+    font-size: 0.5rem;
+    margin-left: 0.5rem;
+    margin-top: -1rem;
+  }
+  .pd9 #giamgia4 {
+    font-size: 0.5rem;
+    margin-left: 0.2rem;
+    margin-top: -1rem;
+  }
+  .pd9 #sale4 {
+    font-size: 0.7rem;
+    margin-top: -1rem;
+    margin-left: 2.7rem;
+  }
+  .content {
+    height: 63rem;
+  }
+  .footer {
+    margin-top: -43rem;
+  }
+}
